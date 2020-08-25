@@ -1,0 +1,30 @@
+.cast_wrp {
+  box-shadow: 0px 5px 5px gray;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.cast_list {
+  list-style: none;
+}
+.cast_item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.cast_img {
+  width: 100px;
+  margin-right: 20px;
+}
+.cast_char {
+  font-size: 18px;
+  font-weight: 600;
+}
+.cast_name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.cast_info {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+}

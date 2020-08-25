@@ -1,0 +1,78 @@
+.btn {
+  display: inline-block;
+  background-color: gray;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+  width: 80px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.wrp {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 5px 5px gray;
+}
+.img_wrp {
+  margin-right: 100px;
+}
+.img {
+  width: 200px;
+}
+.info_wrp {
+  width: 600px;
+}
+.details_score {
+  font-size: 18px;
+  font-weight: 500;
+}
+.details_overview {
+  font-size: 20px;
+  font-weight: 600;
+}
+.details_gen {
+  font-size: 20px;
+  font-weight: 600;
+}
+.details_gen_list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+.details_gen_item {
+  margin-right: 10px;
+}
+.details_additional {
+  box-shadow: 0px 5px 5px gray;
+  padding-bottom: 10px;
+}
+.details_additional_title {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.details_additional_list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.details_additional_list_item {
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+.additional_link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.additional_link:hover {
+  color: palevioletred;
+}

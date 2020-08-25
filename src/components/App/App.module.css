@@ -1,0 +1,18 @@
+.Navigation_list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  box-shadow: 0px 5px 5px gray;
+}
+.Navigation_item {
+  margin-right: 40px;
+}
+.Navigation_link {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+.Navigation_link_active {
+  color: palevioletred;
+}
