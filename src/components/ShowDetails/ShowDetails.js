@@ -80,7 +80,7 @@ export default class ShowDetails extends Component {
                     exact
                     to={{
                       pathname: `/movies/${this.props.match.params.moviesId}/cast`,
-                      state: { from: this.props.location },
+                      state: this.props.location.state,
                     }}
                   >
                     Cast
@@ -93,7 +93,7 @@ export default class ShowDetails extends Component {
                     exact
                     to={{
                       pathname: `/movies/${this.props.match.params.moviesId}/review`,
-                      state: { from: this.props.location },
+                      state: this.props.location.state,
                     }}
                   >
                     Reviews
